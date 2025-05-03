@@ -1,0 +1,216 @@
+.navigation{
+    display:flex;
+    justify-content:space-between;
+    background-color:rgb(124, 55, 24);
+    border-radius:10px;
+    }
+    .navigation div{
+        color:white;
+        text-transform:uppercase;
+        padding:15px;
+        font-size:30px;
+        }
+    .navigation a{
+        text-decoration:none;
+        font-size:20px;
+        color:white;
+        padding-right:8px;
+        text-transform:uppercase;
+        }
+        header{
+            background-image:url("../images/banner.png");
+            background-color:rgba(0,0,0,0.5);
+            background-blend-mode:multiply;
+            background-size:cover;
+            }
+            body{
+                margin:0;
+                padding:0px;
+                font-family:"Roboto";
+               
+                }
+                .divtext{
+                    display:flex;
+                color:white;
+                padding-left:10px;
+                padding-top:70px;
+                font-size:30px;
+                font-family:"Roboto";
+                text-transform: uppercase;
+                column-gap:10px;
+                }
+                .dtext{
+                    padding-top:5px;
+                    color:lightgray;
+                    padding-left:6px;
+                    font-size:20px; padding-bottom:100px;
+                    }
+    .image{
+        padding-left:10px;
+        padding-top:50px;
+    }
+    .image1{
+        padding-top:5px;
+        padding-left:150px;
+    }
+    .features{
+    
+        padding-top:20px ;
+        display:flex;
+        column-gap:20px;
+        
+        }
+        .maintext{
+            color:rgb(124, 55, 24);
+            font-size:30px;
+            padding-top:30px;
+            padding-left:80px;
+
+        }
+    .box{
+       
+      border:2px solid gray;
+      box-shadow: 0px 0px 0px gray;
+      
+      padding-top:0px;
+      padding-left:0px;
+      padding-right:0px;
+      
+
+      }
+      .redarea{
+        
+        background-color:rgb(244, 226, 226);
+        margin:20px;
+    }
+        
+    .bold{
+        
+        text-transform:uppercase;
+        font-size:25px;
+        text-align:center;
+       
+    }
+    .text{
+        color:black;
+   padding-left:10px;
+   padding-right:10px;
+   padding-bottom: 10px ;
+    padding-top:10px;
+    font-size:12px;
+    text-align: justify;
+    }
+    .image2{
+        padding-top:5px;
+        padding-left:130px;
+    }
+    .imggallery{
+        width:100%;
+        display:flex;
+        column-gap:10px;
+padding-left:10px;
+        padding-right:10px;
+        padding-top:20px;
+        padding-bottom:5px;
+    }
+    .imggallery img{
+        border-radius: 220px;
+    }
+    .maintext1{
+        text-align:center;
+        font-size:30px;
+        text-transform:uppercase;
+        color:rgb(124, 55, 24);
+        padding-top:20px;
+       
+    }
+    .bold1{
+        text-align:center;
+        color:black;
+        font-size:20px;
+        padding-top:15px;
+    }
+    .text1{
+        padding-top:15px;
+        color:black;
+        font-size:15px;
+        text-align:center;
+        text-transform:capitalize;
+    }
+    .image3{
+        padding-top:30px;
+        padding-left:70px;
+        padding-right:300px;
+     
+       
+      
+    }
+    .bold2{
+      
+        color:rgb(124, 55, 24);
+        font-size:25px;
+        padding-top:30px;
+        padding-left:70px;
+        padding-right:300px;
+    }
+    .boldtext{
+        
+        padding-top:5px;
+        padding-left:70px;
+        padding-right:300px;
+        color:rgb(165, 68, 22);
+        font-size:20px;
+        text-transform:capitalize ;
+        
+    }
+    .text2{
+        
+        padding-top:15px;
+        color:black;
+        font-size:15px;
+       text-transform:capitalize;
+       padding-left:70px;
+       padding-right:300px;
+    }
+    .image4{
+        padding-top:30px;
+        padding-left:30px;
+        padding-right:700px;
+     
+       
+      
+    }
+    .maintext2{
+        display:flex;
+        column-gap:0px;
+    }
+    .bold3{
+      
+        color:rgb(124, 55, 24);
+        font-size:25px;
+        padding-top:30px;
+        padding-left:30px;
+        padding-right:700px;
+    }
+    .boldtext1{
+        
+        padding-top:5px;
+        padding-left:30px;
+        padding-right:700px;
+        color:rgb(165, 68, 22);
+        font-size:20px;
+        text-transform:capitalize ;
+        
+    }
+    .text3{
+        
+        padding-top:15px;
+        color:black;
+        font-size:15px;
+       text-transform:capitalize;
+       padding-left:30px;
+       padding-right:700px;
+    }
+    .rounded{
+        border-radius: 100%;
+    }
