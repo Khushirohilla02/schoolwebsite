@@ -17,6 +17,7 @@
         padding-right:8px;
         text-transform:uppercase;
         }
+    
         header{
             background-image:url("../images/banner.png");
             background-color:rgba(0,0,0,0.5);
@@ -195,5 +196,150 @@ padding-left:10px;
         padding-left:50px;
         padding-top:15px;
         text-transform:capitalize;
-     }
+     } 
      
+
+
+     @media only screen and (max-width:600px)
+    {
+        .navigation div{
+            padding:12px;
+            color:white;
+        text-transform:uppercase;
+        font-size:15px;
+        }
+        .navigation a{
+            padding-right:2px;
+            text-decoration:none;
+            font-size:15px;
+            color:white;
+            text-transform:uppercase;
+        }
+        .divtext{
+            display:flex;
+        color:white;
+        padding-left:5px;
+        padding-top:50px;
+        font-size:15px;
+        font-family:"Roboto";
+        text-transform: uppercase;
+        column-gap:10px;
+        }
+        .dtext{
+            padding-top:5px;
+            color:lightgray;
+            padding-left:5px;
+            font-size:15px; padding-bottom:10%;
+            }
+            .image1{
+                padding-top:5px;
+                padding-left:70px;
+            }
+            .imggallery{
+                width:100%;
+                display:grid;
+                column-gap:10px;
+                padding-left:150px;
+                padding-right:150px;
+                padding-top:20px;
+                padding-bottom:5px;
+            }
+            .maintext{
+                color:rgb(124, 55, 24);
+                font-size:20px;
+                padding-top:30px;
+                padding-left:80px;
+    
+            }
+            .features{
+    
+                padding-top:20px ;
+                display:grid;
+                column-gap:20px;
+                
+                
+                }
+                .maintext1{
+                    color:rgb(124, 55, 24);
+                    font-size:40px;
+                    padding-left:200px;
+                    padding-top:10px;
+                    padding-right:200px;
+                }
+                .imagetext{
+                    display:grid;
+                    padding-top:8px;
+                    padding-left:30px;
+                }
+                .bold1{
+                    color:black;
+                    padding-left:10px;
+                    padding-right:10px;
+                    font-size:30px;
+                    padding-top:20px;
+                 }
+                 .text1{
+                    color:gray;
+                    font-size:15px;
+                    padding-left:10px;
+                    padding-right:10px;
+                    padding-top:10px;
+                 }
+                 .imagetext1{
+                    display:grid;
+                    column-gap:60px;
+                 }
+                 .bold2{
+                    color:black;
+                    padding-left:40px;
+                    padding-right:10px;
+                    font-size:30px;
+                    padding-top:40px;
+                 }
+                 .text2{
+                    color:gray;
+                    font-size:15px;
+                    padding-left:40px;
+                    padding-right:10px;
+                    padding-top:10px;
+                 }
+                 .imagetext2{
+                    display:grid;
+                    padding-top:10px;
+                    padding-left:50px;
+                }
+                .bold3{
+                    color:black;
+                    padding-left:10px;
+                    padding-right:10px;
+                    font-size:30px;
+                    padding-top:40px;
+                 }
+                 .text3{
+                    color:gray;
+                    font-size:15px;
+                    padding-left:10px;
+                    padding-right:10px;
+                    padding-top:10px;
+                 }
+                 .boldtext{
+                    color:black;
+                    font-size:30px;
+                    padding-left:20px;
+                    padding-top:30px;
+                 }
+                 .divtext1{
+                    color:gray;
+                    font-size:15px;
+                    padding-left:20px;
+                    padding-top:15px;
+                    text-transform:capitalize;
+                 }
+                 .imgc{
+                    padding-left:120px;
+                 }
+                 
+    }
+
+
+
